@@ -1,17 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fiso.Lib", "Fiso.Lib\Fiso.Lib.fsproj", "{5D961592-6A53-427C-80E4-98F634EC19DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiso", "Fiso\Fiso.csproj", "{A93946F7-F04C-4CA8-BED8-E06EAE89A921}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FisoFs", "FisoFs\FisoFs.fsproj", "{196613DC-8914-4984-AE96-D22B6DAFAC33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B273528C-1E58-495C-A63B-AE490E2925A0}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D961592-6A53-427C-80E4-98F634EC19DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D961592-6A53-427C-80E4-98F634EC19DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D961592-6A53-427C-80E4-98F634EC19DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D961592-6A53-427C-80E4-98F634EC19DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93946F7-F04C-4CA8-BED8-E06EAE89A921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93946F7-F04C-4CA8-BED8-E06EAE89A921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93946F7-F04C-4CA8-BED8-E06EAE89A921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93946F7-F04C-4CA8-BED8-E06EAE89A921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196613DC-8914-4984-AE96-D22B6DAFAC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196613DC-8914-4984-AE96-D22B6DAFAC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196613DC-8914-4984-AE96-D22B6DAFAC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196613DC-8914-4984-AE96-D22B6DAFAC33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
